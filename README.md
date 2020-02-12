@@ -50,9 +50,15 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-# Step 2: Install Dependencies
+# Step 2: Setup Your Environment
 
-Now that Docker is running, we need to install the project dependencies via NPM- the Node Package Manager.
+Copy the `example.env` file to `.env`. This file will be used to store account credentials. Replace examples in `example.env` with real account data.
+
+```
+cp example.env .env
+```
+
+After that, we must install project dependencies via NPM- the Node Package Manager:
 
 ```
 sudo docker-compose run farmbot_example npm install
