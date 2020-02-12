@@ -1,0 +1,12 @@
+version: "3"
+services:
+  farmbot_example:
+    env_file: ".env"
+    depends_on: []
+    image: farmbot_example
+    volumes:
+      - ".:/farmbot_example"
+    build:
+      context: "."
+      dockerfile: example.Dockerfile
+    command: node index.js
