@@ -22,8 +22,8 @@ By running your code off the device you:
 # Step 0: Clone the Tutorial
 
 ```
-git clone __PROJECT_URL__
-cd __PROJECT_NAME__
+git clone https://github.com/FarmBot-Labs/remote-control-example.git
+cd remote-control-example
 ```
 
 # Step 1: Install Docker Compose
