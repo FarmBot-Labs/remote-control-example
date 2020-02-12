@@ -74,7 +74,6 @@ sudo docker-compose down
 
 # Next Steps
 
-This is a very basic tutorial.
-https://developer.farm.bot/docs
- * Read the official developer docs
- * Ask for help on Github or the forum.
+This is a very basic tutorial. The next best step for a serious developer is to read the [official software developer documentation](https://developer.farm.bot/docs) from start to finish. The material was designed to be read in order and coontains all of the major concepts required to understand how FarmBot works from the perspective of a software developer.
+
+We're here to help. If anything still does not make sense, please raise an issue or reach out to us on the [FarmBot forum](https://forum.farmbot.org).
