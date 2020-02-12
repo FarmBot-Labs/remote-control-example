@@ -72,6 +72,12 @@ You should see a `node_modules/` directory populated with dependencies after run
 sudo docker-compose up
 ```
 
+# Read the Source Code
+
+The [application source code](https://github.com/FarmBot-Labs/remote-control-example/blob/master/index.js) is heavily commented to explain the basics. If something still does not make sense, please [raise a Github issue](https://github.com/FarmBot-Labs/remote-control-example/issues/new) and we will do our best to answer your question.
+
+`index.js` can be modified to meet the needs of a real world application. It can be used as a start template for your own applications.
+
 # Stop the Server
 
 ```
